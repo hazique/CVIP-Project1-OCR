@@ -4,8 +4,8 @@ import os
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--preds")
-    parser.add_argument("--groundtruth")
+    parser.add_argument("--preds", default="./results.json")
+    parser.add_argument("--groundtruth", default="./data/groundtruth.json")
     parser.add_argument("--iou", default=0.5)
     parser.add_argument("--beta", default=1)
     args = parser.parse_args()

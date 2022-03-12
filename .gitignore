@@ -1,1 +1,3 @@
 .DS_Store
+odooTest.py
+__pycache__/
